@@ -6,7 +6,7 @@ metadata:
     run: simple-golang
 spec:
   # modify replicas according to your case
-  replicas: 6
+  replicas: 3
   selector:
     matchLabels:
         run: simple-golang
