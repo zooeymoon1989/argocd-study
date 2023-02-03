@@ -11,7 +11,7 @@ namespace: argocd
 
 resources:
   - resources/namespace.yaml
-  - github.com/argoproj/argo-cd/manifests/ha/cluster-install?ref=v2.1.1
+  - github.com/argoproj/argo-cd/manifests/ha/cluster-install?ref=v2.5.10
 
 # Warning: 'patchesStrategicMerge' is deprecated.
 #Please use 'patches' instead. Run 'kustomize edit fix' to update your Kustomization automatically.
