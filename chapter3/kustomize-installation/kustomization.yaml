@@ -18,6 +18,6 @@ resources:
 
 patchesStrategicMerge:
   - patches/argocd-cm.yaml
-  - patches/argocd-server-deployment.ya``ml
+  - patches/argocd-server-deployment.yaml
   - patches/argocd-repo-server-deployment.yaml
   - patches/argocd-application-controller-statefulset.yaml
