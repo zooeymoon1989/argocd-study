@@ -11,7 +11,7 @@ spec:
   project: default
   source:
     path: ch03/kustomize-installation
-    repoURL: https://github.com/PacktPublishing/ArgoCD-in-Practice.git
+    repoURL: https://github.com/zooeymoon1989/tmp-argocd-study.git
     targetRevision: main
   syncPolicy:
     automated: {}
