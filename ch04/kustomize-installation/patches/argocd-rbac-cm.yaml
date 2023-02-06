@@ -5,10 +5,10 @@ metadata:
 data:
   policy.default: role:readonly
   
-  # policy.csv: |
+  policy.csv: |
 
-    # p, role:user-update, accounts, update, *, allow
-    # p, role:user-update, accounts, get, *, allow
+    p, role:user-update, accounts, update, *, allow
+    p, role:user-update, accounts, get, *, allow
     # p, role:user-update, projects, update, argocd, allow
 
     # g, alina, role:user-update
