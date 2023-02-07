@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/zooeymoon1989/tmp-argocd-study.git
     targetRevision: HEAD
-    path: dev
+    path: ch02/dev
   destination:
     namespace: simple-golang
     server: https://kubernetes.default.svc
