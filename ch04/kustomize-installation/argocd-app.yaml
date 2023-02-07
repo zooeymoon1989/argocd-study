@@ -9,7 +9,7 @@ spec:
   project: argocd 
   source: 
     path: ch04/kustomize-installation 
-    repoURL: https://github.com/zooeymoon1989/tmp-argocd-study.git
+    repoURL: ssh:git@github.com:zooeymoon1989/tmp-argocd-study.git
     targetRevision: main
   syncPolicy:
     automated:
